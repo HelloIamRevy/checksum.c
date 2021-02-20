@@ -34,7 +34,7 @@ int main(int argc, char *argv[], char **envp)
     {
         if (i == 5)
         {
-            checksum = header[c];
+            checksum = header[i];
             header[i] = 0;
         }
         sum += header[i];
